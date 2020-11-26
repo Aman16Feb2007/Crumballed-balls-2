@@ -53,7 +53,7 @@ function draw() {
 	D3.display();
 
 	imageMode(CENTER);
-	image(dustbinImg, 619, 580,200,200)
+	image(dustbinImg, 619, 580,200,200);
 
 
   drawSprites();
@@ -62,7 +62,7 @@ function draw() {
 
 function keyPressed(){
 	if(keyCode === 32){
-		Matter.Body.applyForce(P.body, P.body.position, {x:400 ,y: -650});
+		Matter.Body.applyForce(P.body, P.body.position, {x:500 ,y: -750});
 	}
 
 
